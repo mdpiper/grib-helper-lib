@@ -4,13 +4,13 @@ IDL's [GRIB API](http://www.exelisvis.com/docs/GRIB_Routines.html) is
 built on the C version of the
 [ECMWF GRIB-API](https://software.ecmwf.int/wiki/display/GRIB/Home).
 The IDL routines mirror those of the low-level ECMWF API, so it
-requires a bit of programming to get even simple information from a
+requires a bit of programming to get even basic information from a
 GRIB file.
 
 The following routines,
 built with IDL's GRIB API,
 make it easier
-to get information from a GRIB file:
+to work with GRIB files:
 
 * `GRIB_INVENTORY`: Creates an inventory of a GRIB file, returned
   as a string array. This is similar to using
